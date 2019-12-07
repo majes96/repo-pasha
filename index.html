@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Proyecto 02</title>
+    <style>
+      /*******************************************
+      * Globals
+      ********************************************/
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        text-align: center;
+        font-family: arial;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      article {
+        display: inline-block;
+        text-align: left;
+        box-shadow: 0px 0px 10px 0px #585858;
+        margin-top: 40px;
+      }
+
+      span {
+        width: 10px;
+        height: 10px;
+        background: #1eea1e;
+        display: inline-block;
+        border-radius: 100%;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+      }
+
+      img {
+        display: block;
+      }
+
+      /*******************************************
+      * .top
+      ********************************************/
+      .top {
+        position: relative;
+      }
+
+      .top .text {
+        position: absolute;
+        bottom: 50px;
+        text-align: center;
+        width: 100%;
+        color: white;
+      }
+
+      .top h1 {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      .top ul {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      .top p {
+        font-size: 12px;
+      }
+
+      .top ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .top .center {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .top .layer {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 100%;
+      }
+
+      /*******************************************
+      * .bottom
+      ********************************************/
+      .bottom {
+        position: relative;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+
+      .bottom a {
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background: rgb(23, 120, 18);
+        background: linear-gradient(
+          0deg,
+          rgb(18, 132, 13) 0%,
+          rgb(81, 214, 89) 54%,
+          rgb(28, 239, 32) 100%
+        );
+        text-align: center;
+        font-size: 18px;
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        line-height: 50px;
+        top: -25px;
+        left: 50%;
+        margin-left: -25px;
+      }
+
+      .bottom ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      .bottom li {
+        text-align: center;
+      }
+
+      .bottom h2 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #b4b4b4;
+      }
+
+      .bottom p {
+        font-size: 16px;
+      }
+
+      .bottom .center {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <div class="top">
+        <div class="layer"></div>
+        <span></span>
+        <figure>
+          <img src="https://picsum.photos/400/400" alt="" />
+        </figure>
+        <div class="text">
+          <h1>@0Kernel</h1>
+          <ul>
+            <li>IOS Developer</li>
+            <li class="center">|</li>
+            <li>Android Programmer</li>
+          </ul>
+          <p>Freelancer Designer based in Beijing</p>
+        </div>
+      </div>
+      <div class="bottom">
+        <a href="">+</a>
+        <ul>
+          <li>
+            <h2>TWEETS</h2>
+            <p>1,024</p>
+          </li>
+          <li class="center">
+            <h2>FOLLOWERS</h2>
+            <p>512</p>
+          </li>
+          <li>
+            <h2>FOLLOWING</h2>
+            <p>2,048</p>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </body>
+</html>
